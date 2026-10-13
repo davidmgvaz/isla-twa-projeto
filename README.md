@@ -1,0 +1,67 @@
+# TWA 2026/27 — projeto · project template
+
+**Tecnologias Web Avançadas** · Licenciatura em Engenharia Informática · ISLA Gaia · 2026/27 · David Vaz ([@davidmgvaz](https://github.com/davidmgvaz))
+
+**PT** — Repositório inicial do projeto de grupo. Cria o vosso a partir dele com **Use this template** (nome `twa-projeto-<dia|noite>-<nn>`, **privado**, com `davidmgvaz` como colaborador) e preencham a secção **Grupo** abaixo até **domingo 18/10**.
+**EN** — Starter repository for the group project. Create yours from it with **Use this template** (name it `twa-projeto-<dia|noite>-<nn>`, **private**, with `davidmgvaz` as collaborator) and fill in the **Group** section below by **Sunday 18/10**.
+
+## Grupo · Group
+
+| | |
+|---|---|
+| **Turma** | Dia / Noite |
+| **Tema · Theme** | … |
+| **API pública (M1) · Public API (M1)** | … |
+
+| Membro · Member | Nº | Entidade · Entity | Endpoints da API pública (lista · um item) · Public API endpoints (list · one item) |
+|---|---|---|---|
+| … | … | … | … |
+| … | … | … | … |
+| … | … | … | … |
+
+**Uma entidade por membro**, de ponta a ponta: ecrãs Vue (M1), modelo e endpoints (M2), secção do relatório (M3) — e as perguntas da parte B do teste são sobre *a tua* entidade. · **One entity per member**, end to end: Vue screens (M1), model and endpoints (M2), report section (M3) — and your part B test questions are about *your* entity.
+
+## Como correr · How to run
+
+```sh
+cd client
+npm install
+npm run dev          # http://localhost:5173
+```
+
+Requisitos · Requirements: Node.js 22 LTS, npm 10, Git.
+
+## Estrutura · Structure
+
+```
+client/                      frontend Vue 3 + Vite + Vue Router (M1)
+├── src/
+│   ├── main.js              createApp(App).use(router).mount('#app')
+│   ├── App.vue              navegação + <RouterView> · navigation + <RouterView>
+│   ├── router.js            uma rota por ecrã (Aula 06) · one route per screen
+│   ├── Home.vue             página inicial: tema, grupo · home page: theme, group
+│   ├── api/getJSON.js       o fetch das fichas: res.ok + JSON · the fetch from the fichas
+│   └── entities/
+│       └── items/           ENTIDADE DE EXEMPLO · EXAMPLE ENTITY (apagar depois · delete afterwards)
+│           ├── api.js       os URLs desta entidade, e só aqui · this entity's URLs, nowhere else
+│           ├── ItemsList.vue
+│           └── ItemDetail.vue
+└── public/data/items.json   dados do exemplo · example data
+server/                      API Express + MongoDB — a partir da Aula 08 (M2) · from Aula 08 (M2)
+```
+
+**Regra: uma pasta por entidade** em `client/src/entities/<entidade>/`, com `api.js`, `<Entidade>List.vue`, `<Entidade>Detail.vue` e, no M1, `<Entidade>Form.vue`. As rotas da entidade entram no `router.js` e o link na `App.vue` — ver os comentários. · **Rule: one folder per entity** in `client/src/entities/<entity>/`, with `api.js`, `<Entity>List.vue`, `<Entity>Detail.vue` and, for M1, `<Entity>Form.vue`. The entity's routes go in `router.js` and its link in `App.vue` — see the comments there.
+
+## Calendário · Calendar
+
+| Marco · Milestone | O quê · What | Peso · Weight | Prazo · Deadline |
+|---|---|---|---|
+| **M1** | Vue sobre a API pública: lista, detalhe, formulário, routing — um ecrã por membro · Vue over the public API: list, detail, form, routing — one screen per member | 10% | dom. · Sun 08/11/2026 |
+| **M2** | API própria Node + Express + MongoDB — uma entidade por membro, com relações; o frontend passa a usá-la · your own API — one entity per member, with relations; the frontend switches to it | 15% | dom. · Sun 06/12/2026 |
+| **M3** | PWA + Canvas + relatório ≤ 2 páginas + apresentação no workshop de 14/01 · PWA + Canvas + report ≤ 2 pages + presentation at the 14/01 workshop | 15% | dom. · Sun 17/01/2027 |
+
+**IA generativa · Generative AI:** permitida no projeto com **declaração obrigatória** no README e no relatório (o que, onde, como foi verificado). · allowed in the project with a **mandatory declaration** in the README and the report (what, where, how it was checked).
+
+## Declaração de IA · AI declaration
+
+…
