@@ -7,11 +7,7 @@
 
 ## Grupo · Group
 
-| | |
-|---|---|
-| **Turma** | Dia / Noite |
-| **Tema · Theme** | … |
-| **API pública (M1) · Public API (M1)** | … |
+**Turma:** Dia / Noite
 
 | Membro · Member | Nº | Entidade · Entity | Endpoints da API pública (lista · um item) · Public API endpoints (list · one item) |
 |---|---|---|---|
@@ -20,6 +16,18 @@
 | … | … | … | … |
 
 **Uma entidade por membro**, de ponta a ponta: ecrãs Vue (M1), modelo e endpoints (M2), secção do relatório (M3) — e as perguntas da parte B do teste são sobre *a tua* entidade. · **One entity per member**, end to end: Vue screens (M1), model and endpoints (M2), report section (M3) — and your part B test questions are about *your* entity.
+
+## Tema · Theme
+
+| | |
+|---|---|
+| **Tema · Theme** | … |
+| **API pública (M1) · Public API (M1)** | … |
+| **URL base da API · API base URL** | `https://…` |
+| **Entidades (uma por membro) · Entities (one per member)** | … · … · … |
+
+**PT** — Escolham um tema da lista publicada no Moodle (*Temas do projeto*) ou proponham o vosso. Um tema próprio é aceite se a API pública **permitir CORS** e **não exigir chave**: ao entregar o URL do repositório no Moodle, escrevam o nome do tema e o URL da API no texto online da entrega; o docente aprova ou recusa no comentário de feedback. Até à aprovação, não contem com o tema.
+**EN** — Pick a theme from the list published on Moodle (*Project themes*) or propose your own. An own theme is accepted if the public API **allows CORS** and **needs no key**: when submitting the repository URL on Moodle, write the theme name and the API URL in the submission's online text; the lecturer approves or refuses it in the feedback comment. Do not count on the theme until it is approved.
 
 ## Como correr · How to run
 
