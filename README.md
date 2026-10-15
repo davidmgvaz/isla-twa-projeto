@@ -26,6 +26,20 @@
 | **URL base da API · API base URL** | `https://…` |
 | **Entidades (uma por membro) · Entities (one per member)** | … · … · … |
 
+Temas propostos (documentação · URL base) · Proposed themes (docs · base URL):
+
+| Tema · Theme | Entidades · Entities | API pública (M1) · Public API (M1) |
+|---|---|---|
+| Pokédex e equipas · Pokédex & teams | Pokémon · Treinador/Trainer · Equipa/Team · Torneio/Tournament · Troca/Trade | [PokéAPI](https://pokeapi.co/) · `https://pokeapi.co/api/v2/` |
+| Séries de TV · TV series | Série/Series · Episódio/Episode · Ator/Actor · Watchlist · Review | [TVMaze](https://www.tvmaze.com/api) · `https://api.tvmaze.com/` |
+| Biblioteca · Library | Livro/Book · Autor/Author · Leitor/Reader · Empréstimo/Loan · Editora/Publisher | [Open Library](https://openlibrary.org/developers/api) · `https://openlibrary.org/` |
+| Receitas · Recipes | Receita/Recipe · Ingrediente/Ingredient · Categoria/Category · Plano semanal/Weekly plan · Utilizador/User | [TheMealDB](https://www.themealdb.com/api.php) · `https://www.themealdb.com/api/json/v1/1/` |
+| Museu · Museum | Obra/Artwork · Artista/Artist · Exposição/Exhibition · Coleção/Collection · Visitante/Visitor | [Art Institute of Chicago](https://api.artic.edu/docs/) · `https://api.artic.edu/api/v1/` |
+| Meteorologia local · Local weather | Cidade/City · Estação/Station · Observação/Observation · Alerta/Alert · Utilizador/User | [Open-Meteo](https://open-meteo.com/en/docs) · `https://api.open-meteo.com/v1/` |
+| Música · Music | Artista/Artist · Álbum/Album · Faixa/Track · Playlist · Utilizador/User | [MusicBrainz](https://musicbrainz.org/doc/MusicBrainz_API) · `https://musicbrainz.org/ws/2/` |
+| Lançamentos espaciais · Space launches | Lançamento/Launch · Foguetão/Rocket · Agência/Agency · Missão/Mission · Plataforma/Pad | [Launch Library 2](https://ll.thespacedevs.com/docs/) · `https://ll.thespacedevs.com/2.3.0/` (15 pedidos/hora · 15 requests/hour) |
+| Desporto · Sports | Equipa/Team · Jogador/Player · Jogo/Match · Liga/League · Época/Season | [TheSportsDB](https://www.thesportsdb.com/free_sports_api) · `https://www.thesportsdb.com/api/v1/json/3/` (chave de teste `3` · test key `3`) |
+
 **PT** — Escolham um tema da lista publicada no Moodle (*Temas do projeto*) ou proponham o vosso. Um tema próprio é aceite se a API pública **permitir CORS** e **não exigir chave**: ao entregar o URL do repositório no Moodle, escrevam o nome do tema e o URL da API no texto online da entrega; o docente aprova ou recusa no comentário de feedback. Até à aprovação, não contem com o tema.
 **EN** — Pick a theme from the list published on Moodle (*Project themes*) or propose your own. An own theme is accepted if the public API **allows CORS** and **needs no key**: when submitting the repository URL on Moodle, write the theme name and the API URL in the submission's online text; the lecturer approves or refuses it in the feedback comment. Do not count on the theme until it is approved.
 
